@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {check} from "express-validator"
-import { crearUsuario, obtenerUsuarios, obtenerUsuario, borrarUsuario, editarUsuario,login } from "../controllers/usuarios.controller";
+import { crearUsuario, obtenerUsuarios, obtenerUsuario, borrarUsuario, editarUsuario,login } from "../controllers/usuarios.controllers";
 
 const router = Router()
 

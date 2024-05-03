@@ -11,7 +11,6 @@ const mensajeSchema = new Schema({
         type: String,
         minLength: 2,
         maxLength: 50,
-        unique: true,
         required: true
     },
     nombre: {
