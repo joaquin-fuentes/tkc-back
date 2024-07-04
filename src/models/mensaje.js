@@ -1,3 +1,5 @@
+/* Este fragmento de código define un esquema Mongoose para una entidad "mensaje". Aquí hay un desglose
+de lo que hace cada parte: */
 import { Schema, model } from "mongoose"
 
 const mensajeSchema = new Schema({

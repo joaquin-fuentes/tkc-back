@@ -1,3 +1,18 @@
+/**
+ * El código anterior contiene controladores para la autenticación de usuarios, la recuperación de
+ * usuarios, la creación de usuarios, la eliminación de usuarios y la edición de usuarios en una
+ * aplicación Node.js que utiliza MongoDB.
+ * @param req - El parámetro `req` en su código representa el objeto de solicitud en Express.js.
+ * Contiene información sobre la solicitud HTTP que activó la función, como los encabezados, el cuerpo,
+ * los parámetros y más de la solicitud.
+ * @param res - El parámetro `res` en su código representa el objeto de respuesta en Express.js. Se
+ * utiliza para enviar una respuesta al cliente que realiza la solicitud. Puede utilizar métodos como
+ * `res.status()` para establecer el código de estado HTTP de la respuesta, `res.json()` para enviar
+ * una respuesta JSON,
+ * @returns El código proporcionado incluye varias funciones de controlador para la autenticación y
+ * administración de usuarios en una aplicación Node.js usando Express y Mongoose. A continuación se
+ * muestra un resumen de las funciones:
+ */
 // import generarJWT from "../helpers/token-sign";
 import Usuario from "../models/usuario"
 

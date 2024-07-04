@@ -1,4 +1,6 @@
-import {Schema, model} from "mongoose"
+/* Este fragmento de código define un esquema Mongoose para un usuario (usuario) en una base de datos
+MongoDB. A continuación se muestra un desglose de lo que hace cada parte del código: */
+import { Schema, model } from "mongoose"
 
 const usuarioSchema = new Schema({
     nombreUsuario: {

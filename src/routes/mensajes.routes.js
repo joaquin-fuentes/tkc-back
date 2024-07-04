@@ -1,3 +1,5 @@
+/* Este código JavaScript configura un enrutador utilizando el marco Express para una aplicación de
+mensajería. Aquí hay un desglose de lo que hace cada parte: */
 import { Router } from "express";
 import {
     borrarMensaje,
